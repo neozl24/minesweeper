@@ -14,6 +14,8 @@
 		339ABED429C8092000F206B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339ABED329C8092000F206B4 /* Assets.xcassets */; };
 		339ABED729C8092000F206B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339ABED529C8092000F206B4 /* LaunchScreen.storyboard */; };
 		339ABEDA29C8092000F206B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABED929C8092000F206B4 /* main.m */; };
+		339ABEE129C9BD2400F206B4 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEE029C9BD2400F206B4 /* CellView.m */; };
+		339ABEE629C9BEFB00F206B4 /* DigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEE529C9BEFB00F206B4 /* DigitView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		339ABED629C8092000F206B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		339ABED829C8092000F206B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		339ABED929C8092000F206B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		339ABEE029C9BD2400F206B4 /* CellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		339ABEE329C9BD7500F206B4 /* CellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		339ABEE429C9BE8300F206B4 /* DigitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitView.h; sourceTree = "<group>"; };
+		339ABEE529C9BEFB00F206B4 /* DigitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				339ABED529C8092000F206B4 /* LaunchScreen.storyboard */,
 				339ABED829C8092000F206B4 /* Info.plist */,
 				339ABED929C8092000F206B4 /* main.m */,
+				339ABEE029C9BD2400F206B4 /* CellView.m */,
+				339ABEE329C9BD7500F206B4 /* CellView.h */,
+				339ABEE429C9BE8300F206B4 /* DigitView.h */,
+				339ABEE529C9BEFB00F206B4 /* DigitView.m */,
 			);
 			path = minesweeper;
 			sourceTree = "<group>";
@@ -148,6 +158,8 @@
 			files = (
 				339ABECF29C8091E00F206B4 /* ViewController.m in Sources */,
 				339ABEC929C8091E00F206B4 /* AppDelegate.m in Sources */,
+				339ABEE629C9BEFB00F206B4 /* DigitView.m in Sources */,
+				339ABEE129C9BD2400F206B4 /* CellView.m in Sources */,
 				339ABEDA29C8092000F206B4 /* main.m in Sources */,
 				339ABECC29C8091E00F206B4 /* SceneDelegate.m in Sources */,
 			);
