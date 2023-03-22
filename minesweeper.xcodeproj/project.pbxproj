@@ -16,6 +16,15 @@
 		339ABEDA29C8092000F206B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABED929C8092000F206B4 /* main.m */; };
 		339ABEE129C9BD2400F206B4 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEE029C9BD2400F206B4 /* CellView.m */; };
 		339ABEE629C9BEFB00F206B4 /* DigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEE529C9BEFB00F206B4 /* DigitView.m */; };
+		339ABEE929CAA02600F206B4 /* InformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEE829CAA02600F206B4 /* InformationView.m */; };
+		339ABEEC29CAA2FC00F206B4 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEEB29CAA2FC00F206B4 /* GameView.m */; };
+		339ABEF029CAA93900F206B4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEEF29CAA93900F206B4 /* ListViewController.m */; };
+		339ABEF329CAA97100F206B4 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEF229CAA97100F206B4 /* Record.m */; };
+		339ABEF629CAAA8F00F206B4 /* RecordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEF529CAAA8F00F206B4 /* RecordList.m */; };
+		339ABEF929CAAD4D00F206B4 /* InstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEF829CAAD4D00F206B4 /* InstructionViewController.m */; };
+		339ABEFC29CAADDE00F206B4 /* DragExitGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEFB29CAADDE00F206B4 /* DragExitGestureRecognizer.m */; };
+		339ABEFF29CAAE3300F206B4 /* PressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABEFE29CAAE3300F206B4 /* PressGestureRecognizer.m */; };
+		339ABF0229CAAE6400F206B4 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 339ABF0129CAAE6400F206B4 /* PlayerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +44,25 @@
 		339ABEE329C9BD7500F206B4 /* CellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
 		339ABEE429C9BE8300F206B4 /* DigitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitView.h; sourceTree = "<group>"; };
 		339ABEE529C9BEFB00F206B4 /* DigitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitView.m; sourceTree = "<group>"; };
+		339ABEE729CA9FC300F206B4 /* InformationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationView.h; sourceTree = "<group>"; };
+		339ABEE829CAA02600F206B4 /* InformationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationView.m; sourceTree = "<group>"; };
+		339ABEEA29CAA2D500F206B4 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		339ABEEB29CAA2FC00F206B4 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		339ABEED29CAA34A00F206B4 /* GameDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameDelegate.h; sourceTree = "<group>"; };
+		339ABEEE29CAA91E00F206B4 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		339ABEEF29CAA93900F206B4 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		339ABEF129CAA95A00F206B4 /* Record.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		339ABEF229CAA97100F206B4 /* Record.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		339ABEF429CAAA6600F206B4 /* RecordList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordList.h; sourceTree = "<group>"; };
+		339ABEF529CAAA8F00F206B4 /* RecordList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordList.m; sourceTree = "<group>"; };
+		339ABEF729CAAD2F00F206B4 /* InstructionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstructionViewController.h; sourceTree = "<group>"; };
+		339ABEF829CAAD4D00F206B4 /* InstructionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstructionViewController.m; sourceTree = "<group>"; };
+		339ABEFA29CAADAA00F206B4 /* DragExitGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragExitGestureRecognizer.h; sourceTree = "<group>"; };
+		339ABEFB29CAADDE00F206B4 /* DragExitGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragExitGestureRecognizer.m; sourceTree = "<group>"; };
+		339ABEFD29CAAE0600F206B4 /* PressGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PressGestureRecognizer.h; sourceTree = "<group>"; };
+		339ABEFE29CAAE3300F206B4 /* PressGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PressGestureRecognizer.m; sourceTree = "<group>"; };
+		339ABF0029CAAE5A00F206B4 /* PlayerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
+		339ABF0129CAAE6400F206B4 /* PlayerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +110,25 @@
 				339ABEE329C9BD7500F206B4 /* CellView.h */,
 				339ABEE429C9BE8300F206B4 /* DigitView.h */,
 				339ABEE529C9BEFB00F206B4 /* DigitView.m */,
+				339ABEE729CA9FC300F206B4 /* InformationView.h */,
+				339ABEE829CAA02600F206B4 /* InformationView.m */,
+				339ABEEA29CAA2D500F206B4 /* GameView.h */,
+				339ABEEB29CAA2FC00F206B4 /* GameView.m */,
+				339ABEED29CAA34A00F206B4 /* GameDelegate.h */,
+				339ABEEE29CAA91E00F206B4 /* ListViewController.h */,
+				339ABEEF29CAA93900F206B4 /* ListViewController.m */,
+				339ABEF129CAA95A00F206B4 /* Record.h */,
+				339ABEF229CAA97100F206B4 /* Record.m */,
+				339ABEF429CAAA6600F206B4 /* RecordList.h */,
+				339ABEF529CAAA8F00F206B4 /* RecordList.m */,
+				339ABEF729CAAD2F00F206B4 /* InstructionViewController.h */,
+				339ABEF829CAAD4D00F206B4 /* InstructionViewController.m */,
+				339ABEFA29CAADAA00F206B4 /* DragExitGestureRecognizer.h */,
+				339ABEFB29CAADDE00F206B4 /* DragExitGestureRecognizer.m */,
+				339ABEFD29CAAE0600F206B4 /* PressGestureRecognizer.h */,
+				339ABEFE29CAAE3300F206B4 /* PressGestureRecognizer.m */,
+				339ABF0029CAAE5A00F206B4 /* PlayerModel.h */,
+				339ABF0129CAAE6400F206B4 /* PlayerModel.m */,
 			);
 			path = minesweeper;
 			sourceTree = "<group>";
@@ -156,8 +203,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339ABEF329CAA97100F206B4 /* Record.m in Sources */,
+				339ABEFF29CAAE3300F206B4 /* PressGestureRecognizer.m in Sources */,
+				339ABEE929CAA02600F206B4 /* InformationView.m in Sources */,
+				339ABF0229CAAE6400F206B4 /* PlayerModel.m in Sources */,
+				339ABEF629CAAA8F00F206B4 /* RecordList.m in Sources */,
 				339ABECF29C8091E00F206B4 /* ViewController.m in Sources */,
+				339ABEF029CAA93900F206B4 /* ListViewController.m in Sources */,
+				339ABEEC29CAA2FC00F206B4 /* GameView.m in Sources */,
 				339ABEC929C8091E00F206B4 /* AppDelegate.m in Sources */,
+				339ABEFC29CAADDE00F206B4 /* DragExitGestureRecognizer.m in Sources */,
+				339ABEF929CAAD4D00F206B4 /* InstructionViewController.m in Sources */,
 				339ABEE629C9BEFB00F206B4 /* DigitView.m in Sources */,
 				339ABEE129C9BD2400F206B4 /* CellView.m in Sources */,
 				339ABEDA29C8092000F206B4 /* main.m in Sources */,

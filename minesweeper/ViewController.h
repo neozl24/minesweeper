@@ -6,9 +6,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameDelegate.h"
 
-@interface ViewController : UIViewController
 
+@class InformationView, GameView;
+
+@interface ViewController : UIViewController <UITextFieldDelegate, GameControlDelegate> {
+
+    UIImageView* backgroundImageView;
+    GameView* gameView;
+    InformationView* boardView;
+}
+
+- (void)loadGame;
+- (void)reloadGame;
+- (void)continueGame;
 
 @end
 
